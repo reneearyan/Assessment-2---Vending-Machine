@@ -121,7 +121,7 @@ def main():
             print(f"\nYou might also like {suggested_name} ({suggested_code}).")
             
         #ask if user wants to buy again
-        again = input("\nWould you like to buy again? (yes/no) ")
+        again = input("\nWould you like to buy again? (yes/no) ").lower()
         
         if again == "no":
             print("\nThank you for using Yakitate's Vending Machine!")
